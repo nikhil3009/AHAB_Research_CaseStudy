@@ -1,0 +1,63 @@
+/** @format */
+
+.container {
+	max-width: 400px; /* Restricts the form width */
+	margin: auto; /* Centers the form in the page */
+	padding: 20px; /* Adds some padding around the form */
+	background-color: #f9f9f9; /* Light gray background */
+	border-radius: 8px; /* Rounded corners for the form */
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Subtle shadow around the form */
+}
+
+form {
+	display: flex;
+	flex-direction: column;
+	gap: 20px;
+}
+
+.age-verification {
+	display: flex;
+	align-items: center; /* Aligns items vertically in the center */
+	gap: 10px; /* Space between label and checkbox */
+}
+
+.age-verification input[type='checkbox'] {
+	width: 20px; /* Checkbox size */
+	height: 20px; /* Checkbox size */
+	cursor: pointer; /* Changes the cursor to a pointer when hovered */
+}
+
+input[type='text'],
+input[type='password'] {
+	padding: 10px; /* Padding inside the text boxes */
+	border: 1px solid #ccc; /* Light grey border */
+	border-radius: 5px; /* Rounded corners for text boxes */
+}
+
+button {
+	background-color: #007bff; /* Bootstrap primary blue */
+	color: white;
+	border: none;
+	padding: 10px 20px;
+	cursor: pointer; /* Changes the cursor to a pointer when hovered */
+	border-radius: 5px; /* Rounded corners for the button */
+	transition: background-color 0.3s ease; /* Smooth transition for hover effect */
+}
+
+button:hover {
+	background-color: #0056b3; /* Darker shade of blue on hover */
+}
+select {
+	width: 100%; /* Makes the select box the same width as input fields */
+	padding: 10px;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+	background-color: white;
+	cursor: pointer; /* Indicates that the select box is clickable */
+}
+
+.consent {
+	display: flex;
+	align-items: center; /* Aligns the checkbox and label vertically */
+	gap: 10px; /* Adds space between the checkbox and label */
+}
